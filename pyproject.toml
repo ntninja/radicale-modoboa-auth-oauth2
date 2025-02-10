@@ -12,7 +12,6 @@ authors = [
   { name="Antoine Nguyen", email="tonio@ngyn.org" },
 ]
 description = "Radicale plugin for oauth2 introspection based authentication"
-readme = "README.rst"
 requires-python = ">=3.9"
 classifiers = [
   "Programming Language :: Python",
