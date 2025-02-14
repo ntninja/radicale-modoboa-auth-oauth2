@@ -23,6 +23,6 @@ class Auth(auth.BaseAuth):
         }
         response = requests.post(self._endpoint, data=data, headers=headers)
         content = response.json()
-        if response.status_code == 200 and content.get("active") and content.get("username") == login::
+        if response.status_code == 200 and content.get("active") and content.get("username") == login:
             return login
         return ""
